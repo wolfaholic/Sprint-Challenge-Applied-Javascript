@@ -27,11 +27,7 @@ axios
 
 function tabsComponent(data) {
     let tabTopic = document.createElement('div');
-
-
     tabTopic.classList.add('tab');
-
-
     tabTopic.textContent = `${data}`;
 
     console.log(data);
